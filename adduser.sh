@@ -12,3 +12,4 @@ chmod 700 /home/${usuario}/.ssh/
 chmod 600 /home/${usuario}/.ssh/authorized_keys
 echo ${llave} > /home/${usuario}/.ssh/authorized_keys
 chown -R ${usuario} /home/${usuario}/
+echo $(usuario)'  ALL=(ALL)      NOPASSWD: ALL' >> /etc/sudoers

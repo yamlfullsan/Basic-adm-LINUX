@@ -11,4 +11,4 @@ touch /home/${usuario}/.ssh/authorized_keys
 chmod 700 /home/${usuario}/.ssh/
 chmod 600 /home/${usuario}/.ssh/authorized_keys
 echo ${llave} > /home/${usuario}/.ssh/authorized_keys
-chown ${usuario} /home/${usuario}/
+chown -R ${usuario} /home/${usuario}/

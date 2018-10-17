@@ -26,5 +26,5 @@ enabled = true
 EOD
 
 systemctl restart fail2ban
-
 fail2ban-client status
+systemctl status fail2ban

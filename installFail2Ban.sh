@@ -1,6 +1,6 @@
 #!/bin/sh
 
-yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-$(rpm -E '%{rhel}').noarch.rpm
+yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-$(rpm -E '%{rhel}').noarch.rpm -y
 yum install fail2ban -y
 sleep 5s
 systemctl enable fail2ban

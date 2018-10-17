@@ -4,7 +4,6 @@ yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-$(rpm -E '
 yum install fail2ban -y
 sleep 5s
 systemctl enable fail2ban
-fail2ban-client
 
 #AGREGAR ARCHIVO A JAIL.LOCAL
 cat <<EOD > /etc/fail2ban/jail.local

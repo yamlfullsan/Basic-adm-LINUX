@@ -18,7 +18,7 @@ banaction = firewallcmd-multiport
 maxretry = 6
 
 #IP’s que serán ignoradas y no serán bloqueadas
-ignoreip = 187.174.218.184
+#ignoreip = x.x.x.x
 
 [sshd]
 enabled = true
